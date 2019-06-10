@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'Myriad Pro Regular';
+    src: url(../fonts/MyriadPro-Regular.ttf)
+}
+@font-face{
+    font-family: 'Myriad Pro Italic';
+    src: url(../fonts/MyriadPro-It.ttf)
+}
+@font-face{
+    font-family: 'Myriad Pro SemiBold';
+    src: url(../fonts/MyriadPro-Semibold.ttf)
+}
+.mc-header{
+    background: url(../imgs/headerbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.mc-header__navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 26px 0;
+}
+.mc-header__navigation-link{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Myriad Pro Regular';
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    display: inline-block;
+    list-style-type: none;
+}
+.mc-header__navigation a:first-child{
+    margin-left: 0;
+}
+.mc-header__navigation a:hover{
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+/* ========= header end ======== */
+
+.mc-reports{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.mc-reports__title{
+    font-family: 'Myriad Pro SemiBold';
+    font-size: 30px;
+    color: #2c2c2c;
+}
+/* ===================== reports page ==================== */
+
+.mc-reports__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mc-reports__block{
+    max-width: 46%;
+    display: flex;
+    flex-direction: column;
+}
+.mc-reports__block-imgWrapper{
+    max-width: 100%;
+    height: auto;
+}
+.mc-reports__block-imgWrapper img{
+    width: 100%;
+}
+.mc-reports__block-title{
+    font-family: 'Myriad Pro SemiBold';
+    color: #2c2c2c;
+    margin: 14px 0 30px;
+}
+.mc-reports__block a{
+    color: #2c2c2c;
+    text-decoration: none;
+}
+.mc-footer{
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+    color: #2c2c2c;
+}
+@media all and (max-width:1104px){
+    .mc-reports__wrapper, .mc-header__navigation{
+        margin: 0 40px;
+    }
+    .mc-reports__title{
+        margin: 20px 40px;
+    }
+}
+@media all and (max-width:900px){
+    .mc-header__navigation{
+        justify-content: center;
+        font-size: 24px;
+    }
+}
+@media all and (max-width:740px){
+    .mc-reports__block{
+        max-width: 80%;
+    }
+    .mc-reports__wrapper{
+        justify-content: center;
+    }
+}
+@media all and (max-width:620px){
+    .mc-reports__wrapper, .mc-header__navigation{
+        margin: 0 20px;
+    }
+    .mc-reports__title{
+        margin: 20px 20px;
+    }
+}
+@media all and (max-width:540px){
+    .mc-reports__wrapper, .mc-header__navigation{
+        margin: 0 10px;
+    }
+    .mc-header__navigation-link{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .mc-header__navigation-link:first-child{
+        margin-left: 10px;
+    }
+}
+@media all and (max-width:446px){
+    .mc-header__navigation-link{
+        font-size: 15px;
+    }
+    .mc-reports__block-title{
+        font-size: 18px;
+    }
+}
+@media all and (max-width:358px){
+    .mc-header__navigation-link{
+        font-size: 14px;
+    }
+}
+@media all and (max-width:343px){
+    .mc-header__navigation-link{
+        margin-left: 14px;
+    }
+}

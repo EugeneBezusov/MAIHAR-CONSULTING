@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'Myriad Pro Regular';
+    src: url(../fonts/MyriadPro-Regular.ttf)
+}
+@font-face{
+    font-family: 'Myriad Pro Italic';
+    src: url(../fonts/MyriadPro-It.ttf)
+}
+@font-face{
+    font-family: 'Myriad Pro SemiBold';
+    src: url(../fonts/MyriadPro-Semibold.ttf)
+}
+.mc-header{
+    background: url(../imgs/headerbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.mc-header__navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 26px 0;
+}
+.mc-header__navigation-link{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Myriad Pro Regular';
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    display: inline-block;
+    list-style-type: none;
+}
+.mc-header__navigation a:first-child{
+    margin-left: 0;
+}
+.mc-header__navigation a:hover{
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+.mc-news-title{
+    font-family: 'Myriad Pro SemiBold';
+    font-size: 30px;
+    color: #2c2c2c;
+}
+.mc-news-block{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.mc-preview__img{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.mc-news-text{
+    font-family: 'Myriad Pro Regular';
+}
+.mc-body__img{
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.mc-body__img img{
+    width: 100%;
+}
+.back-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c2c2c;
+    border: 1px solid #c5c5c5;
+    border-radius: 14px;
+    background: #dadada;
+    font-size: 18px;
+    font-family: 'Myriad Pro Regular';
+    cursor: pointer;
+    padding: 4px 20px;
+    max-width: 140px;
+    text-decoration: none;
+}
+.back-button:hover{
+    border: 1px solid #2c2c2c;
+}
+.mc-footer{
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+    color: #2c2c2c;
+}
+@media all and (max-width:1104px){
+    .mc-header__navigation, .mc-news-block{
+        margin: 0 40px;
+    }
+}
+@media all and (max-width:900px){
+    .mc-header__navigation{
+        justify-content: center;
+        font-size: 24px;
+    }
+}
+@media all and (max-width:740px){
+    .mc-preview__img{
+        max-width: 200px;
+    }
+}
+@media all and (max-width:620px){
+    .mc-header__navigation, .mc-news-block{
+        margin: 0 20px;
+    }
+    /* .mc-reports__title{
+        margin: 20px 20px;
+    } */
+}
+@media all and (max-width:540px){
+    .mc-header__navigation, .mc-news-block{
+        margin: 0 10px;
+    }
+    .mc-header__navigation-link{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .mc-header__navigation-link:first-child{
+        margin-left: 10px;
+    }
+    .mc-news-title{
+        font-size: 24px;
+    }
+    .back-button{
+        margin: 0 auto;
+    }
+}
+@media all and (max-width:446px){
+    .mc-header__navigation-link{
+        font-size: 15px;
+    }
+    .mc-news-title{
+        font-size: 18px;
+        margin: 14px 0;
+    }
+    .mc-preview__img{
+        max-width: 150px;
+    }
+}
+@media all and (max-width:358px){
+    .mc-header__navigation-link{
+        font-size: 14px;
+    }
+}
+@media all and (max-width:343px){
+    .mc-header__navigation-link{
+        margin-left: 14px;
+    }
+}

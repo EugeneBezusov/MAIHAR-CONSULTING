@@ -1,0 +1,88 @@
+@media all and (max-width:1104px){
+    .mc-header__wrapper, .mc-LatestReports__wrapper, .mc-swo__mainTitle, .mc-swo__wrapperBG, .mc-info__article, .mc-technology, .mc-about__title, .mc-about__wrapper{
+        margin: 0 40px;
+    }
+}
+@media all and (max-width:900px){
+    .mc-header ul{
+        justify-content: center;
+    }
+    .mc-header__title{
+        font-size: 36px;
+    }
+    .mc-header__WhoWeAre{
+        margin: 200px auto 0;
+    }
+    .mc-header__subtitle {
+        font-size: 24px;
+    }
+    .mc-info__howWeDoIt {
+        text-align: center;
+    }
+}
+@media all and (max-width:700px){
+    .mc-LatestReports__imgs{
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
+}
+
+@media all and (max-width:620px){
+    .mc-header__wrapper, .mc-LatestReports__wrapper, .mc-swo__mainTitle, .mc-swo__wrapperBG, .mc-info__article, .mc-technology, .mc-about__title, .mc-about__wrapper{
+        margin: 0 20px;
+    }
+}
+@media all and (max-width:540px){
+    .mc-header__wrapper, .mc-LatestReports__wrapper, .mc-swo__mainTitle, .mc-swo__wrapperBG, .mc-info__article, .mc-technology, .mc-about__title, .mc-about__wrapper{
+        margin: 0 10px;
+    }
+    .mc-header ul li{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .mc-header__title{
+        margin-top: 80px;
+        font-size: 30px;
+    }
+    .mc-header__subtitle{
+        font-size: 18px;
+    }
+    .mc-header__WhoWeAre{
+        margin-top: 100px;
+    }
+    .mc-swo__wrapperBG, .mc-about__wrapper{
+        padding: 2px 10px;
+    }
+    .mc-technology-articleR, .mc-technology-article, .mc-technology-article{
+        max-width: 90%;
+    }
+    .mc-swo__title, .mc-info__hwdi h2, .mc-technology-title, .mc-technology-titleR, .mc-header__WhoWeAre-title{
+        font-size: 20px;
+    }
+    .mc-swo__wrapperBG p, .mc-swo__wrapperBG ul li, .mc-technology-article, .mc-info__howWeDoIt, .mc-technology-articleR, .mc-header__WhoWeAre-article{
+        font-size: 16px;
+    }
+    .mc-footer p{
+        font-size: 14px;
+    }
+    
+}
+@media all and (max-width:446px){
+    .mc-header ul li{
+        font-size: 15px;
+    }
+}
+@media all and (max-width:358px){
+    .mc-header ul li {
+        font-size: 14px;
+    }
+    .mc-info__hwdi h2{
+        margin: 40px 10px 20px;
+    }
+}
+@media all and (max-width:343px){
+    .mc-header__navigation-link{
+        margin-left: 14px;
+    }
+}

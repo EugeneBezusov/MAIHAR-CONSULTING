@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'Myriad Pro Regular';
+    src: url(fonts/MyriadPro-Regular.ttf)
+}
+@font-face{
+    font-family: 'Myriad Pro Italic';
+    src: url(fonts/MyriadPro-It.ttf)
+}
+@font-face{
+    font-family: 'Myriad Pro SemiBold';
+    src: url(fonts/MyriadPro-Semibold.ttf)
+}
+/*==================== Header start ====================*/
+.mc-header{
+    width: 100%;
+    background: url(imgs/P01.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 10px;
+}
+.mc-header__wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.mc-menu__button{
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    display: none;
+}
+.mc-header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+}
+.mc-header__navigation-link{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Myriad Pro Regular';
+    box-sizing: border-box;
+    margin-bottom: 1px;
+}
+.mc-header ul a:first-child{
+    margin-left: 0;
+}
+.mc-header ul a:hover{
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.mc-header__title{
+    margin-top: 100px;
+    font-family: 'Myriad Pro SemiBold';
+    font-size: 40px;
+}
+.mc-header__title, .mc-header__subtitle{
+    text-align: center;
+    color: #fff;
+}
+.mc-header__subtitle{
+    font-family: 'Myriad Pro Italic';
+    font-size: 26px;
+}
+.mc-header__WhoWeAre{
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin-top: 200px ;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #2c2c2c;
+    font-family: 'Myriad Pro Regular';
+}
+.mc-header__WhoWeAre-article{
+    font-size: 18px;
+}
+/*==================== Header end ====================*/
+
+/*==================== Latest Reports start ==========*/
+.mc-LatestReports__wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.mc-LatestReports__imgs{
+    float: left;
+    margin: 0 10px 0 0;
+}
+.mc-LatestReports__title{
+    font-family: 'Myriad Pro SemiBold';
+    font-size: 30px;
+    color: #2c2c2c;
+}
+.mc-LatestReports__reports-title{
+    font-family: 'Myriad Pro SemiBold';
+    color: #2c2c2c;
+    margin: 0;
+}
+.mc-LatestReports-blog__paragraph{
+    margin: 0;
+    line-height: 1.3;
+    font-family: 'Myriad Pro Regular';
+}
+.mc-LatestReports__ReadMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c2c2c;
+    border: 1px solid #c5c5c5;
+    border-radius: 14px;
+    background: #dadada;
+    font-size: 18px;
+    font-family: 'Myriad Pro Regular';
+    cursor: pointer;
+    float: right;
+    padding: 4px 20px;
+}
+.mc-LatestReports__ReadMore:hover{
+    border: 1px solid #2c2c2c;
+}
+.mc-LatestReports__firstBlock{
+    clear: both;
+}
+.mc-LatestReports__secondBlock{
+    clear: both;
+    padding-top: 40px;
+}
+
+/* ================== Service we offer */
+
+.mc-swo{
+    clear: both;
+}
+.mc-swo__mainTitle{
+    font-family: 'Myriad Pro SemiBold';
+    font-size: 30px;
+    color: #2c2c2c;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 30px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.mc-swo__wrapper{
+    background: url(imgs/bgSWO.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #2c2c2c;
+}
+.mc-swo__wrapperBG{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 40px 20px;
+    font-family: 'Myriad Pro Regular';
+}
+
+.mc-swo__wrapperBG p{
+    margin: 14px 0;
+    font-size: 18px;
+}
+.mc-swo__title{
+    font-family: 'Myriad Pro SemiBold';
+}
+.bold-text{
+    font-family: 'Myriad Pro SemiBold';
+}
+.mc-swo__wrapperBG ul li{
+    font-family: 'Myriad Pro Regular';
+    font-size: 18px;
+}
+/* =========================== info section */
+.mc-info__hwdi{
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Myriad Pro SemiBold';
+    margin: 0 auto;
+}
+.mc-info__hwdi h2{
+    margin: 40px 20px 20px;
+    cursor: pointer;
+    padding-bottom: 1px;
+    color: #2c2c2c;
+}
+.mc-info__hwdi h2:first-child{
+    border-bottom: 1px solid #2c2c2c;
+    padding-bottom: 0;
+}
+
+.mc-info__hwdi h2:hover{
+    border-bottom: 1px solid #2c2c2c;
+    padding-bottom: 0;
+}
+
+.mc-info__article{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Myriad Pro Regular';
+    font-size: 18px;
+    color: #2c2c2c;
+}
+.mc-info__WhyChooseUs{
+    display: none;
+}
+.mc-technology{
+    max-width: 1024px;
+    margin: 0 auto;
+    color: #2c2c2c;
+}
+.mc-technology-title{
+    margin-top: 40px;
+    font-family: 'Myriad Pro SemiBold';
+}
+.mc-technology-article{
+    font-family: 'Myriad Pro Regular';
+    font-size: 18px;
+    max-width: 80%;
+    margin-bottom: 0;
+}
+.mc-technology__renewables{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.mc-technology__energy, .mc-technology__renewables, .mc-technology__processes{
+    opacity: 0;
+
+}
+.mc-technology-titleR{
+    margin: 40px 0 0;
+    font-family: 'Myriad Pro SemiBold';
+    text-align: end;
+    
+}
+.mc-technology-articleR{
+    font-family: 'Myriad Pro Regular';
+    font-size: 18px;
+    max-width: 80%;
+    text-align: end;
+    margin-bottom: 0;   
+}
+/* =========================== about */
+.mc-about__title{
+    max-width: 1024px;
+    padding: 25px 0;
+    margin: 0 auto;
+    font-family: 'Myriad Pro SemiBold';
+    font-size: 30px;
+    color: #2c2c2c;
+    text-transform: uppercase;
+}
+.mc-about{
+    background: url(imgs/bgabouus.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.mc-about__wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px 40px 20px;
+    font-family: 'Myriad Pro Regular';
+    color: #2c2c2c;
+}
+.mc-about__ulTitle{
+    font-family: 'Myriad Pro SemiBold';
+}
+.mc-footer{
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+    color: #2c2c2c;
+}
